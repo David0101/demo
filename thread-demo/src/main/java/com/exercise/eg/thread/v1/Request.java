@@ -1,4 +1,4 @@
-package com.exercise.eg.thread;
+package com.exercise.eg.thread.v1;
 
 public class Request {
     private String name;

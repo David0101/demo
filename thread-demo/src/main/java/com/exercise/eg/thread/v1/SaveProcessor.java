@@ -1,4 +1,4 @@
-package com.exercise.eg.thread;
+package com.exercise.eg.thread.v1;
 
 public class SaveProcessor implements IRequestProcessor {
     private IRequestProcessor nextProcessor;
