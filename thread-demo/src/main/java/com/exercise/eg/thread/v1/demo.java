@@ -7,10 +7,12 @@ public class demo {
 
 
         SaveProcessor saveProcessor = new SaveProcessor( );
-        IRequestProcessor printProcessor = new PrintProcessor(saveProcessor);
-
+        saveProcessor.start();
+        PrintProcessor printProcessor = new PrintProcessor(saveProcessor);
+        printProcessor.start();
         PreProcessor preProcessor = new PreProcessor(printProcessor);
         preProcessor.process(request);
+        preProcessor.start();
 
 
     }
