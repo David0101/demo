@@ -19,7 +19,7 @@ public class ConditionWait implements Runnable{
             lock.lock();
             try {
                 System.out.println("ConditionWait begin");
-                condition.await();
+                condition.await();//阻塞（释放锁，加入condition阻塞队列，唤醒()的话再进入aqs队列去竞争锁?
                 System.out.println("ConditionWait end");
             } catch (InterruptedException e) {
                 e.printStackTrace();
