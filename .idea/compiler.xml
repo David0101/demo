@@ -6,17 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="design-pattern" />
         <module name="kafka-demo" />
         <module name="mq-demo" />
         <module name="rabbitmq-consumer" />
+        <module name="ribbon" />
         <module name="thread-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="demo" target="1.8" />
+      <module name="design-pattern" target="1.8" />
       <module name="kafka-demo" target="1.8" />
       <module name="mq-demo" target="1.8" />
       <module name="rabbitmq-consumer" target="1.8" />
+      <module name="ribbon" target="1.8" />
+      <module name="spring-cloud" target="1.8" />
+      <module name="spring-cloud-ribbon" target="1.8" />
       <module name="thread-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

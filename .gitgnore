@@ -1,9 +1,31 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.war
+*.ear
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
 ### IntelliJ IDEA ###
 .idea/
-target/
-log/
+*.iws
 *.iml
-.log
-*.pid
-*.port
-nsb-msg.pid
+*.ipr
+log/
+niu-logs/
+logContentFile.log
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+logs/
