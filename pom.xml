@@ -24,8 +24,13 @@
         <module>mq-demo</module>
         <module>rabbitmq-consumer</module>
         <module>kafka-demo</module>
+
         <module>spring-cloud</module>
         <module>design-pattern</module>
+
+        <module>others</module>
+        <module>algorithm</module>
+
     </modules>
 
 
