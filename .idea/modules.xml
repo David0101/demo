@@ -11,7 +11,6 @@
       <module fileurl="file://$PROJECT_DIR$/rabbitmq-consumer/rabbitmq-consumer.iml" filepath="$PROJECT_DIR$/rabbitmq-consumer/rabbitmq-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud/ribbon/ribbon.iml" filepath="$PROJECT_DIR$/spring-cloud/ribbon/ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud/spring-cloud.iml" filepath="$PROJECT_DIR$/spring-cloud/spring-cloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud/spring-cloud-ribbon.iml" filepath="$PROJECT_DIR$/spring-cloud/spring-cloud-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread-demo/thread-demo.iml" filepath="$PROJECT_DIR$/thread-demo/thread-demo.iml" />
     </modules>
   </component>
