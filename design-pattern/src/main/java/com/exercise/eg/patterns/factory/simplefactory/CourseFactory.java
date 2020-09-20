@@ -1,4 +1,8 @@
-package com.exercise.eg.patterns.factory;
+package com.exercise.eg.patterns.factory.simplefactory;
+
+import com.exercise.eg.patterns.factory.ICourse;
+import com.exercise.eg.patterns.factory.JavaCourse;
+import com.exercise.eg.patterns.factory.PythonCourse;
 
 public class CourseFactory {
     public ICourse create(String name){
